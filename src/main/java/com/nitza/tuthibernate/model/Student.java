@@ -6,6 +6,8 @@ public class Student {
 	private String full_name;
 	private String address;
 	private String phone;
+	
+	
 	public int getStudentId() {
 		return studentId;
 	}
