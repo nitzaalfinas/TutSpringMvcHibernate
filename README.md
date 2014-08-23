@@ -22,3 +22,9 @@
 4. Buat mapping xml untuk model Student
 
 5. Buat config hibernate
+
+6. Buat interface: StudentDao
+
+7. Buat implement dari StudentDao: StudentDaoImpl
+
+
