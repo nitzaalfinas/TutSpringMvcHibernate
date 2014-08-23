@@ -20,3 +20,5 @@
 3. Tambahkan model Student
 
 4. Buat mapping xml untuk model Student
+
+5. Buat config hibernate

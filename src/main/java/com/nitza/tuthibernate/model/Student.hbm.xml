@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.nitza.tuthibernate.model">
+	<class name="Student" table="student">
+		<id name="id" column="studentId">
+			<generator class="native"/>
+		</id>
+		<property name="full_name" column="full_name" />
+		<property name="address" column="address" />
+		<property name="phone" column="phone" />
+	</class>	
+</hibernate-mapping>
