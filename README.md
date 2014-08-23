@@ -29,3 +29,6 @@
 
 8. Setup servlet-context.xml
 
+9. Create Controller
+
+10. Create View
