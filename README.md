@@ -27,4 +27,5 @@
 
 7. Buat implement dari StudentDao: StudentDaoImpl
 
+8. Setup servlet-context.xml
 

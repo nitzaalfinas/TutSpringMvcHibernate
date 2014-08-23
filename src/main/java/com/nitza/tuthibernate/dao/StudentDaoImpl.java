@@ -9,7 +9,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.nitza.tuthibernate.model.Student;
 
 public class StudentDaoImpl implements StudentDao {
-	
+
 	private SessionFactory sessionFactory;
 	
 	public StudentDaoImpl(SessionFactory sessionFactory) {
@@ -29,6 +29,8 @@ public class StudentDaoImpl implements StudentDao {
 	@Override
 	@Transactional
 	public Student getStudent(int studentId) {
+		
+		
 		Student student = (Student) sessionFactory.getCurrentSession().get(Student.class, studentId);
 		
 		return student;

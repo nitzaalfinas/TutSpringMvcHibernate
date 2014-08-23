@@ -2,17 +2,17 @@ package com.nitza.tuthibernate.model;
 
 public class Student {
 	
-	private int studentId;
+	private int id;
 	private String full_name;
 	private String address;
 	private String phone;
 	
 	
-	public int getStudentId() {
-		return studentId;
+	public int getId() {
+		return id;
 	}
-	public void setStudentId(int studentId) {
-		this.studentId = studentId;
+	public void setId(int id) {
+		this.id = id;
 	}
 	public String getFull_name() {
 		return full_name;
