@@ -19,11 +19,25 @@ public interface StudentDao {
 	/**
 	 * Useful example by mkyong.com provide so many options here
 	 * You can see at http://www.mkyong.com/hibernate/hibernate-criteria-examples/
-	 * @param field
-	 * @param order
+	 * @param o_field order field
+	 * @param o_direction order direction
 	 * @param start
 	 * @param num_row
 	 * @return
 	 */
-	public List<Student> listOrderLimit(String field, String order, int start, int num_row);
+	public List<Student> listOrderLimit(String o_field, String o_direction, int start, int num_row);
+	
+	
+	/**
+	 * Useful example by mkyong.com provide so many options here
+	 * You can see at http://www.mkyong.com/hibernate/hibernate-criteria-examples/
+	 * @param r_field
+	 * @param r_value
+	 * @param o_field
+	 * @param o_direction
+	 * @param start
+	 * @param num_rows
+	 * @return
+	 */
+	public List<Student> listRestrictionOrderLimit(String r_field, String r_value, String o_field, String o_direction, int start, int num_rows);
 }
