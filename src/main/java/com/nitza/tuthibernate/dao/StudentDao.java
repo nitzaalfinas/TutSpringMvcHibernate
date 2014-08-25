@@ -6,8 +6,6 @@ import com.nitza.tuthibernate.model.Student;
 
 public interface StudentDao {
 	
-	public List<Student> list();
-	
 	public Student getStudent(int studentId);
 	
 	public void add(Student student);
@@ -15,4 +13,8 @@ public interface StudentDao {
 	public void edit(Student student);
 	
 	public void delete(int studentId);
+	
+	public List<Student> list();
+	
+	public List<Student> listOrderLimit(String field, String order, int start, int num_row);
 }
